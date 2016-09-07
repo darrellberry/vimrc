@@ -54,6 +54,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Bundle 'Valloric/YouCompleteMe'
+Plugin 'christoomey/vim-tmux-navigator'
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
 
