@@ -160,15 +160,12 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'https://github.com/kien/ctrlp.vim'
 Bundle 'Valloric/YouCompleteMe'
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
 
 
 Plugin 'elzr/vim-json'
-Bundle 'scrooloose/syntastic'
-Bundle 'jimenezrick/vimerl'
 Bundle 'christoomey/vim-tmux-navigator'
 Plugin 'scrooloose/nerdtree.git'
 " NerdTree on by default
