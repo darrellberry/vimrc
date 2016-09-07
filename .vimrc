@@ -223,18 +223,6 @@ if (filereadable(b:vim))
     execute "source ".b:vim
 endif
 
-" syntastic plugin
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-" ignore tidy errors/warnings for ionic 
-let g:syntastic_html_tidy_ignore_errors=["<ion-", "discarding unexpected </ion-", " proprietary attribute \"ng-"]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Erlang ctags - https://francoisorsini.wordpress.com/2012/04/14/vim-ctags-for-erlang/
