@@ -1,7 +1,8 @@
 syntax on
+set nocompatible
 
 
-colorscheme desert
+colorscheme gruvbox
 
 " for taglist plugin
 filetype plugin on
@@ -54,9 +55,10 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'SirVer/ultisnips'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
-Bundle 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
+Plugin 'bling/vim-airline'
 
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
