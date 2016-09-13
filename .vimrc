@@ -1,7 +1,7 @@
 syntax on
 
 
-colorscheme github
+colorscheme desert
 
 " for taglist plugin
 filetype plugin on
@@ -55,6 +55,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
+Bundle 'majutsushi/tagbar'
+
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
 
