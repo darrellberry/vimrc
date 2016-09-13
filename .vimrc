@@ -1,6 +1,4 @@
 syntax on
-set nocompatible
-
 
 colorscheme gruvbox
 
@@ -58,7 +56,6 @@ Plugin 'SirVer/ultisnips'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'majutsushi/tagbar'
-Plugin 'bling/vim-airline'
 
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
