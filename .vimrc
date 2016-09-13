@@ -53,6 +53,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'SirVer/ultisnips'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
 Bundle 'majutsushi/tagbar'
