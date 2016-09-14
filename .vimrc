@@ -1,6 +1,6 @@
 syntax on
+set nocp
 
-colorscheme gruvbox
 
 " for taglist plugin
 filetype plugin on
@@ -56,6 +56,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'majutsushi/tagbar'
+Bundle 'https://github.com/altercation/vim-colors-solarized.git'       
 
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
@@ -63,7 +64,9 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 call vundle#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+syntax on
+set background=dark
+colorscheme solarized
 
 
 
