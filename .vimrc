@@ -66,6 +66,8 @@ let g:EclimCompletionMethod = 'omnifunc'
 
 call vundle#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:airline_theme='base16'
 syntax on
 set background=dark
 colorscheme gruvbox
