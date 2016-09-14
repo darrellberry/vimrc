@@ -57,6 +57,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'majutsushi/tagbar'
 Bundle 'https://github.com/altercation/vim-colors-solarized.git'       
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 filetype plugin indent on
 let g:EclimCompletionMethod = 'omnifunc'
