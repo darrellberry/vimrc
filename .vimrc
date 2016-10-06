@@ -72,5 +72,6 @@ colorscheme gruvbox
 let g:airline_theme='base16'
 
 noremap <F3> :JavaCorrect <CR>
-noremap <F3> :JavaCorrect <CR>
 noremap <F2> :%JavaFormat<CR>
+noremap <F2> :%JavaFormat<CR>
+noremap <F9> :ProjectTree<CR>:vertical resize 70<CR>
