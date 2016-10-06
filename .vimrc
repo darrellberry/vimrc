@@ -71,5 +71,6 @@ set background=dark
 colorscheme gruvbox
 let g:airline_theme='base16'
 
-noremap ` :JavaSearch <CR>
-noremap ¬ :JavaCorrect <CR>
+noremap <F3> :JavaCorrect <CR>
+noremap <F3> :JavaCorrect <CR>
+noremap <F2> :%JavaFormat<CR>
